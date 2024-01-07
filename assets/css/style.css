@@ -30,7 +30,7 @@
 
   .banner-section{
     background-image: url('../images/Banner\ Image.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     max-height: 600px;    
   }
