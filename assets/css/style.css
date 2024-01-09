@@ -247,6 +247,8 @@ section.offer-section {
   padding-left: 40px;
 }
 
+/* holiday sale section css */
+
 .holiday-sale-section {
   margin: 120px auto;
   width: 80%;
@@ -280,12 +282,6 @@ section.offer-section {
   width: 50%;
 }
 
-
-.holiday-sale-product img {
-  width: 80%;
-  height: auto;
-}
-
 .holiday-section-content-bottom{
   background-image: url("/assets/images/Rectangle\ 2.png");
   height: 150px;
@@ -295,21 +291,6 @@ section.offer-section {
   border-radius: 0px 0px 16px 16px;
 }
 
-.holiday-sale-item >.holiday-sale-product.right-align{
-  position: relative;
-  z-index: 1;
-}
-.holiday-sale-item >.holiday-sale-product.right-align::before {
-  content: " ";
-  width: 200px;
-  height: 200px;
-  background-image: url('/assets/images/Group\ 44.png');
-  z-index: 999;
-  display: block;
-  position: absolute;
-  top: 40px;
-  left: -146px;
-}
 /* portfolio section css here */
 
 .portfolio-image-item {
@@ -432,6 +413,10 @@ footer {
   font-size: 24px;
   font-weight: 500;
   line-height: 40px; /* 166.667% */
+}
+
+.contact-area p img {
+  padding-right: 16px;
 }
 
 .social-links {
