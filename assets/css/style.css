@@ -306,6 +306,10 @@ section.offer-section {
   margin-bottom: -6px;
 }
 
+.holiday-sale-product.right-align{
+  position: relative;
+}
+
 .holiday-sale-product.right-align::before {
   content: " ";
   display: block;
@@ -314,7 +318,7 @@ section.offer-section {
   top: 33%;
   position: absolute;
   left: -20%;
-  background-image: url("../images/Group-44.png");
+  background-image: url('../images/Group-44.png');
   z-index: 999;
 }
 /* portfolio section css here */
