@@ -202,6 +202,11 @@ section.offer-section {
   font-weight: 900;
 }
 
+.coming-section-content .coming-soon-image {
+  display: block;
+  margin: 0 auto;
+}
+
 .coming-section-content .coming-soon-image img {
   border-radius: 50%;
   width: 80%;
@@ -212,9 +217,13 @@ section.offer-section {
   padding: 20px;
 }
 
-.coming-section-content > .year {
+.coming-section-right > .year {
   font-size: 48px;
   font-weight: 700;
+}
+
+.coming-section-right img {
+  padding-top: 40px;
 }
 
 .coming-section-content img.new_year {
@@ -224,4 +233,207 @@ section.offer-section {
 
 .coming-section-content > .coming-soon-text {
   margin: 16px 0 42px 0;
+}
+
+.coming-section-content .coming-section-right {
+  padding-left: 40px;
+}
+
+.holiday-sale-section {
+  margin: 120px auto;
+  width: 80%;
+}
+
+.holiday-sale-heading {
+  text-align: center;
+}
+
+.holiday-sale-heading .sub-heading {
+  color: #070211;
+}
+
+.holiday-sale-heading .section-heading {
+  margin: 10px 0 20px 0;
+}
+.holiday-sale-heading p {
+  color: rgba(7, 2, 17, 0.6);
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+
+/* holiday section css */
+
+.holiday-section-content {
+  display: flex;
+  margin-top: 64px;
+  background-image: url("/assets/images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 16px 0px 16px 16px;
+}
+.holiday-sale-item {
+  width: 50%;
+}
+
+
+.holiday-sale-product img {
+  width: 80%;
+  height: auto;
+}
+
+/* portfolio section css here */
+
+.portfolio-image-item {
+  overflow: hidden;
+}
+
+.portfolio-image-item:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.portfolio-section-heading {
+  width: 66.6%;
+  margin-bottom: 48px;
+}
+
+.portfolio-section .sub-heading {
+  margin-bottom: 10px;
+}
+
+.portfolio-section .section-heading {
+  margin-bottom: 22px;
+}
+
+
+
+.portfolio-section-content {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-section-content .portfolio-image-item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 16px;
+}
+
+.portfolio-section-content .portfolio-image-item {
+  overflow: hidden;
+}
+
+/* subscription area css here */
+.subscription-area {
+  margin: 120px 0;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+.subscription-area .subscription-area-content {
+  text-align: center;
+  width: 66.66%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.subscription-image img {
+  width: 150px;
+  height: 150px;
+}
+
+.subscription-content p {
+  color: rgba(7, 2, 17, 0.6);
+  line-height: 32px; /* 160% */
+}
+
+.subscription-content .section-heading {
+  margin: 40px 0 22px 0;
+}
+
+input[type="email"] {
+  width: 40%;
+  height: 72px;
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  border-color: transparent;
+}
+
+.subscription-form {
+  margin: 48px 0;
+}
+
+input[type="button"] {
+  display: inline-block;
+  width: 210px;
+  height: 76px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border-color: transparent;
+  margin-left: -4px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* footer area css */
+
+footer {
+  background: #070211;
+}
+
+.footer-address-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 20px 50px 20px;
+}
+
+.address-area p {
+  color: #fff;
+  font-size: 24px;
+  line-height: 40px; /* 166.667% */
+}
+
+
+.contact-area p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
+.social-links {
+  width: 50%;
+  margin: 48px auto;
+}
+
+.social-links ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.social-links ul li {
+  list-style: none;
+}
+
+.social-links ul li a {
+  text-decoration: none;
+}
+
+.copyright-footer-area {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+
+.copyright-footer-area .copyright-text p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.copyright-footer-area .unsubscribe-button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
 }
