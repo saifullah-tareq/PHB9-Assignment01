@@ -330,6 +330,7 @@ section.offer-section {
 .portfolio-image-item:hover {
   transform: scale(1.05);
   transition: 0.3s;
+  z-index: 999;
 }
 
 .portfolio-section-heading {
