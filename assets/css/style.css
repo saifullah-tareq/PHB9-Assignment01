@@ -283,7 +283,7 @@ section.offer-section {
 }
 
 .holiday-section-content-bottom {
-  background-image: url("/assets/images/Rectangle\ 2.png");
+  background-image: url("../images/Rectangle\ 2.png");
   height: 150px;
   display: block;
   background-repeat: no-repeat;
@@ -314,7 +314,7 @@ section.offer-section {
   top: 33%;
   position: absolute;
   left: -20%;
-  background-image: url("/assets/images/Group-44.png");
+  background-image: url("../images/Group-44.png");
   z-index: 999;
 }
 /* portfolio section css here */
