@@ -43,6 +43,14 @@ h6 {
   font-weight: 700;
 }
 
+.left-align{
+  float: left;
+}
+
+.right-align{
+  float: right;
+}
+
 /* main section css */
 
 main {
@@ -266,10 +274,7 @@ section.offer-section {
 .holiday-section-content {
   display: flex;
   margin-top: 64px;
-  background-image: url("/assets/images/Rectangle\ 2.png");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  border-radius: 16px 0px 16px 16px;
+  justify-content: flex-end;
 }
 .holiday-sale-item {
   width: 50%;
@@ -281,6 +286,30 @@ section.offer-section {
   height: auto;
 }
 
+.holiday-section-content-bottom{
+  background-image: url("/assets/images/Rectangle\ 2.png");
+  height: 150px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.holiday-sale-item >.holiday-sale-product.right-align{
+  position: relative;
+  z-index: 1;
+}
+.holiday-sale-item >.holiday-sale-product.right-align::before {
+  content: " ";
+  width: 200px;
+  height: 200px;
+  background-image: url('/assets/images/Group\ 44.png');
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: -146px;
+}
 /* portfolio section css here */
 
 .portfolio-image-item {
@@ -356,6 +385,11 @@ input[type="email"] {
   border-radius: 50px 0 0 50px;
   background: #fff;
   border-color: transparent;
+}
+input[type="email"]::placeholder {
+  color: rgba(7, 2, 17, 0.30);
+  font-size: 18px;
+  padding-left: 50px;
 }
 
 .subscription-form {
