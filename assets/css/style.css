@@ -43,11 +43,11 @@ h6 {
   font-weight: 700;
 }
 
-.left-align{
+.left-align {
   float: left;
 }
 
-.right-align{
+.right-align {
   float: right;
 }
 
@@ -282,7 +282,7 @@ section.offer-section {
   width: 50%;
 }
 
-.holiday-section-content-bottom{
+.holiday-section-content-bottom {
   background-image: url("/assets/images/Rectangle\ 2.png");
   height: 150px;
   display: block;
@@ -291,6 +291,32 @@ section.offer-section {
   border-radius: 0px 0px 16px 16px;
 }
 
+.holiday-sale-product.left-align {
+  position: relative;
+}
+
+.holiday-sale-product.left-align > img {
+  position: absolute;
+  width: 500px;
+  top: 125px;
+  left: 0;
+}
+
+.holiday-sale-product.right-align img {
+  margin-bottom: -6px;
+}
+
+.holiday-sale-product.right-align::before {
+  content: " ";
+  display: block;
+  height: 150px;
+  width: 150px;
+  top: 33%;
+  position: absolute;
+  left: -20%;
+  background-image: url("/assets/images/Group-44.png");
+  z-index: 999;
+}
 /* portfolio section css here */
 
 .portfolio-image-item {
@@ -314,8 +340,6 @@ section.offer-section {
 .portfolio-section .section-heading {
   margin-bottom: 22px;
 }
-
-
 
 .portfolio-section-content {
   display: flex;
@@ -368,7 +392,7 @@ input[type="email"] {
   border-color: transparent;
 }
 input[type="email"]::placeholder {
-  color: rgba(7, 2, 17, 0.30);
+  color: rgba(7, 2, 17, 0.3);
   font-size: 18px;
   padding-left: 50px;
 }
@@ -406,7 +430,6 @@ footer {
   font-size: 24px;
   line-height: 40px; /* 166.667% */
 }
-
 
 .contact-area p {
   color: #fff;
